@@ -1,0 +1,17 @@
+{
+  "checked_on": "2026-09-23",
+  "sources": {
+    "runtime": {
+      "repo": "pollen-robotics/microduck",
+      "commit": "ac7531a77adae5e9c49d1a3f5d23f72f9af7fee1"
+    },
+    "rl": {
+      "repo": "pollen-robotics/microduck_rl",
+      "commit": "cb70b792312d559a4da09064d92009079671815f"
+    },
+    "hat": {
+      "repo": "pollen-robotics/elec_RPI_Robot_HAT",
+      "commit": "88d51faf7f5fcc845d2e3b42d4f05ebb98b963b9"
+    }
+  }
+}

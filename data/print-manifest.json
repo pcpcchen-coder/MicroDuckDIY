@@ -1,0 +1,732 @@
+{
+  "checked_on": "2026-09-23",
+  "repository": "pollen-robotics/microduck_rl",
+  "commit": "cb70b792312d559a4da09064d92009079671815f",
+  "model": "src/mjlab_microduck/robot/microduck/robot_walk.xml",
+  "count_method": "worldbody geom class=visual only; exclude collision duplicates",
+  "license_note": "Upstream README: 3D models Creative Commons BY-SA-NC; retain attribution and verify exact terms before redistribution. No STL is vendored here.",
+  "assets": [
+    {
+      "name": "ankle_left",
+      "quantity": 1,
+      "category": "print_candidate",
+      "material_suggestion": "PETG_or_PLA_plus_trial",
+      "source_path": "src/mjlab_microduck/robot/microduck/assets/ankle_left.stl",
+      "git_blob_sha": "2dad3b1633f4158b1262288ba73b46c7d194264d",
+      "size_bytes": 248984,
+      "source_url": "https://raw.githubusercontent.com/pollen-robotics/microduck_rl/cb70b792312d559a4da09064d92009079671815f/src/mjlab_microduck/robot/microduck/assets/ankle_left.stl",
+      "source_units": "metres",
+      "output_units": "millimetres",
+      "scale": 1000,
+      "approval": "unverified_physical_fit",
+      "mesh_dimensions_mm": [
+        39.4891,
+        36.5,
+        25.5
+      ]
+    },
+    {
+      "name": "ankle_right",
+      "quantity": 1,
+      "category": "print_candidate",
+      "material_suggestion": "PETG_or_PLA_plus_trial",
+      "source_path": "src/mjlab_microduck/robot/microduck/assets/ankle_right.stl",
+      "git_blob_sha": "55f5d794697144ba425ecc4023b95e5c83aceb44",
+      "size_bytes": 248884,
+      "source_url": "https://raw.githubusercontent.com/pollen-robotics/microduck_rl/cb70b792312d559a4da09064d92009079671815f/src/mjlab_microduck/robot/microduck/assets/ankle_right.stl",
+      "source_units": "metres",
+      "output_units": "millimetres",
+      "scale": 1000,
+      "approval": "unverified_physical_fit",
+      "mesh_dimensions_mm": [
+        39.4891,
+        36.5,
+        25.5
+      ]
+    },
+    {
+      "name": "banana_pcb_locker",
+      "quantity": 1,
+      "category": "print_candidate",
+      "material_suggestion": "PETG_or_PLA_plus_trial",
+      "source_path": "src/mjlab_microduck/robot/microduck/assets/banana_pcb_locker.stl",
+      "git_blob_sha": "e431ca6236a5dd0dbdfaa508d1dd4e2b0ae4c47c",
+      "size_bytes": 69484,
+      "source_url": "https://raw.githubusercontent.com/pollen-robotics/microduck_rl/cb70b792312d559a4da09064d92009079671815f/src/mjlab_microduck/robot/microduck/assets/banana_pcb_locker.stl",
+      "source_units": "metres",
+      "output_units": "millimetres",
+      "scale": 1000,
+      "approval": "unverified_physical_fit",
+      "mesh_dimensions_mm": [
+        54.0501,
+        3.8,
+        6.6524
+      ]
+    },
+    {
+      "name": "bearing_roll",
+      "quantity": 2,
+      "category": "print_candidate",
+      "material_suggestion": "PETG_or_PLA_plus_trial",
+      "source_path": "src/mjlab_microduck/robot/microduck/assets/bearing_roll.stl",
+      "git_blob_sha": "3e506e515c729f7d8e9c9be5c155b8489a8e0f4d",
+      "size_bytes": 121084,
+      "source_url": "https://raw.githubusercontent.com/pollen-robotics/microduck_rl/cb70b792312d559a4da09064d92009079671815f/src/mjlab_microduck/robot/microduck/assets/bearing_roll.stl",
+      "source_units": "metres",
+      "output_units": "millimetres",
+      "scale": 1000,
+      "approval": "unverified_physical_fit",
+      "mesh_dimensions_mm": [
+        23.0,
+        3.0,
+        40.0
+      ]
+    },
+    {
+      "name": "bottom_head_shell",
+      "quantity": 1,
+      "category": "print_candidate",
+      "material_suggestion": "PETG_or_PLA_plus_trial",
+      "source_path": "src/mjlab_microduck/robot/microduck/assets/bottom_head_shell.stl",
+      "git_blob_sha": "0cc4e79f405fac5b2cd93e4ddfefeeb8ea47f0ff",
+      "size_bytes": 1048584,
+      "source_url": "https://raw.githubusercontent.com/pollen-robotics/microduck_rl/cb70b792312d559a4da09064d92009079671815f/src/mjlab_microduck/robot/microduck/assets/bottom_head_shell.stl",
+      "source_units": "metres",
+      "output_units": "millimetres",
+      "scale": 1000,
+      "approval": "unverified_physical_fit",
+      "mesh_dimensions_mm": [
+        91.763,
+        116.7483,
+        20.1363
+      ]
+    },
+    {
+      "name": "elec_rpi_robot_hat_pcb",
+      "quantity": 1,
+      "category": "purchase_reference",
+      "material_suggestion": "not_print",
+      "source_path": "src/mjlab_microduck/robot/microduck/assets/elec_rpi_robot_hat_pcb.stl",
+      "git_blob_sha": "01bc5b73d4cf968fa4136870273510cdc7787006",
+      "size_bytes": 942884,
+      "source_url": "https://raw.githubusercontent.com/pollen-robotics/microduck_rl/cb70b792312d559a4da09064d92009079671815f/src/mjlab_microduck/robot/microduck/assets/elec_rpi_robot_hat_pcb.stl",
+      "source_units": "metres",
+      "output_units": "millimetres",
+      "scale": 1000,
+      "approval": "unverified_physical_fit",
+      "mesh_dimensions_mm": [
+        65.025,
+        30.025,
+        0.84
+      ]
+    },
+    {
+      "name": "face_part",
+      "quantity": 1,
+      "category": "print_candidate",
+      "material_suggestion": "PETG_or_PLA_plus_trial",
+      "source_path": "src/mjlab_microduck/robot/microduck/assets/face_part.stl",
+      "git_blob_sha": "174b04a2725c71dbece506d5801f6a02b5057666",
+      "size_bytes": 570684,
+      "source_url": "https://raw.githubusercontent.com/pollen-robotics/microduck_rl/cb70b792312d559a4da09064d92009079671815f/src/mjlab_microduck/robot/microduck/assets/face_part.stl",
+      "source_units": "metres",
+      "output_units": "millimetres",
+      "scale": 1000,
+      "approval": "unverified_physical_fit",
+      "mesh_dimensions_mm": [
+        87.6507,
+        12.5,
+        44.6265
+      ]
+    },
+    {
+      "name": "foot_left",
+      "quantity": 1,
+      "category": "print_candidate",
+      "material_suggestion": "PETG_or_PLA_plus_trial",
+      "source_path": "src/mjlab_microduck/robot/microduck/assets/foot_left.stl",
+      "git_blob_sha": "e0e196b5f281d9744930e7fd96b0109f06975574",
+      "size_bytes": 996184,
+      "source_url": "https://raw.githubusercontent.com/pollen-robotics/microduck_rl/cb70b792312d559a4da09064d92009079671815f/src/mjlab_microduck/robot/microduck/assets/foot_left.stl",
+      "source_units": "metres",
+      "output_units": "millimetres",
+      "scale": 1000,
+      "approval": "unverified_physical_fit",
+      "mesh_dimensions_mm": [
+        40.0855,
+        54.0,
+        16.909
+      ]
+    },
+    {
+      "name": "foot_right",
+      "quantity": 1,
+      "category": "print_candidate",
+      "material_suggestion": "PETG_or_PLA_plus_trial",
+      "source_path": "src/mjlab_microduck/robot/microduck/assets/foot_right.stl",
+      "git_blob_sha": "3d9ac8112fd60b4d787bd26a280b4d5045b8db02",
+      "size_bytes": 997684,
+      "source_url": "https://raw.githubusercontent.com/pollen-robotics/microduck_rl/cb70b792312d559a4da09064d92009079671815f/src/mjlab_microduck/robot/microduck/assets/foot_right.stl",
+      "source_units": "metres",
+      "output_units": "millimetres",
+      "scale": 1000,
+      "approval": "unverified_physical_fit",
+      "mesh_dimensions_mm": [
+        40.0855,
+        54.0,
+        16.909
+      ]
+    },
+    {
+      "name": "hip_l",
+      "quantity": 2,
+      "category": "print_candidate",
+      "material_suggestion": "PETG_or_PLA_plus_trial",
+      "source_path": "src/mjlab_microduck/robot/microduck/assets/hip_l.stl",
+      "git_blob_sha": "6870737a6f88f62c03f22e01723b06905e2e80d7",
+      "size_bytes": 1048584,
+      "source_url": "https://raw.githubusercontent.com/pollen-robotics/microduck_rl/cb70b792312d559a4da09064d92009079671815f/src/mjlab_microduck/robot/microduck/assets/hip_l.stl",
+      "source_units": "metres",
+      "output_units": "millimetres",
+      "scale": 1000,
+      "approval": "unverified_physical_fit",
+      "mesh_dimensions_mm": [
+        32.4501,
+        34.5,
+        19.0
+      ]
+    },
+    {
+      "name": "jaw",
+      "quantity": 1,
+      "category": "print_candidate",
+      "material_suggestion": "PETG_or_PLA_plus_trial",
+      "source_path": "src/mjlab_microduck/robot/microduck/assets/jaw.stl",
+      "git_blob_sha": "b8019924e79f2df088dfb503459bd1c1de7a227a",
+      "size_bytes": 495984,
+      "source_url": "https://raw.githubusercontent.com/pollen-robotics/microduck_rl/cb70b792312d559a4da09064d92009079671815f/src/mjlab_microduck/robot/microduck/assets/jaw.stl",
+      "source_units": "metres",
+      "output_units": "millimetres",
+      "scale": 1000,
+      "approval": "unverified_physical_fit",
+      "mesh_dimensions_mm": [
+        91.4158,
+        68.7105,
+        29.4477
+      ]
+    },
+    {
+      "name": "jaw_soft",
+      "quantity": 1,
+      "category": "print_candidate",
+      "material_suggestion": "TPU_95A_trial",
+      "source_path": "src/mjlab_microduck/robot/microduck/assets/jaw_soft.stl",
+      "git_blob_sha": "70a8ee9248f65fcfa2f68bbab41e94571b26f25a",
+      "size_bytes": 336384,
+      "source_url": "https://raw.githubusercontent.com/pollen-robotics/microduck_rl/cb70b792312d559a4da09064d92009079671815f/src/mjlab_microduck/robot/microduck/assets/jaw_soft.stl",
+      "source_units": "metres",
+      "output_units": "millimetres",
+      "scale": 1000,
+      "approval": "unverified_physical_fit",
+      "mesh_dimensions_mm": [
+        87.6737,
+        32.2339,
+        8.4376
+      ]
+    },
+    {
+      "name": "left_shell",
+      "quantity": 1,
+      "category": "print_candidate",
+      "material_suggestion": "PETG_or_PLA_plus_trial",
+      "source_path": "src/mjlab_microduck/robot/microduck/assets/left_shell.stl",
+      "git_blob_sha": "afc336267d9b7ce2b5b309d3a762fa598cd5fa73",
+      "size_bytes": 1048584,
+      "source_url": "https://raw.githubusercontent.com/pollen-robotics/microduck_rl/cb70b792312d559a4da09064d92009079671815f/src/mjlab_microduck/robot/microduck/assets/left_shell.stl",
+      "source_units": "metres",
+      "output_units": "millimetres",
+      "scale": 1000,
+      "approval": "unverified_physical_fit",
+      "mesh_dimensions_mm": [
+        33.7145,
+        80.8901,
+        41.6905
+      ]
+    },
+    {
+      "name": "leg",
+      "quantity": 2,
+      "category": "print_candidate",
+      "material_suggestion": "PETG_or_PLA_plus_trial",
+      "source_path": "src/mjlab_microduck/robot/microduck/assets/leg.stl",
+      "git_blob_sha": "7da4e67dadb2df338f49ffd25855345b4a905f8f",
+      "size_bytes": 738884,
+      "source_url": "https://raw.githubusercontent.com/pollen-robotics/microduck_rl/cb70b792312d559a4da09064d92009079671815f/src/mjlab_microduck/robot/microduck/assets/leg.stl",
+      "source_units": "metres",
+      "output_units": "millimetres",
+      "scale": 1000,
+      "approval": "unverified_physical_fit",
+      "mesh_dimensions_mm": [
+        7.95,
+        20.0,
+        58.0
+      ]
+    },
+    {
+      "name": "lens",
+      "quantity": 1,
+      "category": "purchase_reference",
+      "material_suggestion": "not_print",
+      "source_path": "src/mjlab_microduck/robot/microduck/assets/lens.stl",
+      "git_blob_sha": "c3d0bf32879e0bacd311eb5289902d1705b1d249",
+      "size_bytes": 93684,
+      "source_url": "https://raw.githubusercontent.com/pollen-robotics/microduck_rl/cb70b792312d559a4da09064d92009079671815f/src/mjlab_microduck/robot/microduck/assets/lens.stl",
+      "source_units": "metres",
+      "output_units": "millimetres",
+      "scale": 1000,
+      "approval": "unverified_physical_fit",
+      "mesh_dimensions_mm": [
+        16.94,
+        18.92,
+        16.94
+      ]
+    },
+    {
+      "name": "m12_lens_holder",
+      "quantity": 1,
+      "category": "print_candidate",
+      "material_suggestion": "PETG_or_PLA_plus_trial",
+      "source_path": "src/mjlab_microduck/robot/microduck/assets/m12_lens_holder.stl",
+      "git_blob_sha": "d606a064040b65af3eb9e584657226c4970f1a8a",
+      "size_bytes": 549684,
+      "source_url": "https://raw.githubusercontent.com/pollen-robotics/microduck_rl/cb70b792312d559a4da09064d92009079671815f/src/mjlab_microduck/robot/microduck/assets/m12_lens_holder.stl",
+      "source_units": "metres",
+      "output_units": "millimetres",
+      "scale": 1000,
+      "approval": "unverified_physical_fit",
+      "mesh_dimensions_mm": [
+        24.0,
+        14.8,
+        16.0
+      ]
+    },
+    {
+      "name": "motor_support",
+      "quantity": 1,
+      "category": "print_candidate",
+      "material_suggestion": "PETG_or_PLA_plus_trial",
+      "source_path": "src/mjlab_microduck/robot/microduck/assets/motor_support.stl",
+      "git_blob_sha": "72289542cbb9b02f69686993f59fcf40fbe8422b",
+      "size_bytes": 180884,
+      "source_url": "https://raw.githubusercontent.com/pollen-robotics/microduck_rl/cb70b792312d559a4da09064d92009079671815f/src/mjlab_microduck/robot/microduck/assets/motor_support.stl",
+      "source_units": "metres",
+      "output_units": "millimetres",
+      "scale": 1000,
+      "approval": "unverified_physical_fit",
+      "mesh_dimensions_mm": [
+        73.5,
+        54.2,
+        18.8
+      ]
+    },
+    {
+      "name": "neck",
+      "quantity": 2,
+      "category": "print_candidate",
+      "material_suggestion": "PETG_or_PLA_plus_trial",
+      "source_path": "src/mjlab_microduck/robot/microduck/assets/neck.stl",
+      "git_blob_sha": "2841d71ffd4203a30bbdba33a6a171742e20a581",
+      "size_bytes": 73484,
+      "source_url": "https://raw.githubusercontent.com/pollen-robotics/microduck_rl/cb70b792312d559a4da09064d92009079671815f/src/mjlab_microduck/robot/microduck/assets/neck.stl",
+      "source_units": "metres",
+      "output_units": "millimetres",
+      "scale": 1000,
+      "approval": "unverified_physical_fit",
+      "mesh_dimensions_mm": [
+        2.0,
+        20.0,
+        11.0
+      ]
+    },
+    {
+      "name": "neck_pitch",
+      "quantity": 1,
+      "category": "print_candidate",
+      "material_suggestion": "PETG_or_PLA_plus_trial",
+      "source_path": "src/mjlab_microduck/robot/microduck/assets/neck_pitch.stl",
+      "git_blob_sha": "d93b3d30b8c8e4bc596c96aeaa065685bb55ed45",
+      "size_bytes": 356084,
+      "source_url": "https://raw.githubusercontent.com/pollen-robotics/microduck_rl/cb70b792312d559a4da09064d92009079671815f/src/mjlab_microduck/robot/microduck/assets/neck_pitch.stl",
+      "source_units": "metres",
+      "output_units": "millimetres",
+      "scale": 1000,
+      "approval": "unverified_physical_fit",
+      "mesh_dimensions_mm": [
+        35.0,
+        18.0,
+        27.6931
+      ]
+    },
+    {
+      "name": "noenoeil",
+      "quantity": 1,
+      "category": "print_candidate",
+      "material_suggestion": "PETG_or_PLA_plus_trial",
+      "source_path": "src/mjlab_microduck/robot/microduck/assets/noenoeil.stl",
+      "git_blob_sha": "9f498cfccddc9668dceff0c9e54d9f33d73b55cb",
+      "size_bytes": 49284,
+      "source_url": "https://raw.githubusercontent.com/pollen-robotics/microduck_rl/cb70b792312d559a4da09064d92009079671815f/src/mjlab_microduck/robot/microduck/assets/noenoeil.stl",
+      "source_units": "metres",
+      "output_units": "millimetres",
+      "scale": 1000,
+      "approval": "unverified_physical_fit",
+      "mesh_dimensions_mm": [
+        30.0,
+        9.5,
+        30.0
+      ]
+    },
+    {
+      "name": "np_f970",
+      "quantity": 1,
+      "category": "purchase_reference",
+      "material_suggestion": "not_print",
+      "source_path": "src/mjlab_microduck/robot/microduck/assets/np_f970.stl",
+      "git_blob_sha": "d27fc27da228c3ece3f0909b95757b9c2e1e1a0f",
+      "size_bytes": 1048584,
+      "source_url": "https://raw.githubusercontent.com/pollen-robotics/microduck_rl/cb70b792312d559a4da09064d92009079671815f/src/mjlab_microduck/robot/microduck/assets/np_f970.stl",
+      "source_units": "metres",
+      "output_units": "millimetres",
+      "scale": 1000,
+      "approval": "unverified_physical_fit",
+      "mesh_dimensions_mm": [
+        38.6085,
+        20.5755,
+        70.8086
+      ]
+    },
+    {
+      "name": "pcb__raspberry_pi_zero_2_w",
+      "quantity": 1,
+      "category": "purchase_reference",
+      "material_suggestion": "not_print",
+      "source_path": "src/mjlab_microduck/robot/microduck/assets/pcb__raspberry_pi_zero_2_w.stl",
+      "git_blob_sha": "7c160d099d48076e91b7f9924653817f3ead069f",
+      "size_bytes": 1048584,
+      "source_url": "https://raw.githubusercontent.com/pollen-robotics/microduck_rl/cb70b792312d559a4da09064d92009079671815f/src/mjlab_microduck/robot/microduck/assets/pcb__raspberry_pi_zero_2_w.stl",
+      "source_units": "metres",
+      "output_units": "millimetres",
+      "scale": 1000,
+      "approval": "unverified_physical_fit",
+      "mesh_dimensions_mm": [
+        65.0,
+        1.6,
+        30.0
+      ]
+    },
+    {
+      "name": "power_support",
+      "quantity": 1,
+      "category": "print_candidate",
+      "material_suggestion": "PETG_or_PLA_plus_trial",
+      "source_path": "src/mjlab_microduck/robot/microduck/assets/power_support.stl",
+      "git_blob_sha": "102f0deebf9670223b13ea1756046724970cb871",
+      "size_bytes": 641684,
+      "source_url": "https://raw.githubusercontent.com/pollen-robotics/microduck_rl/cb70b792312d559a4da09064d92009079671815f/src/mjlab_microduck/robot/microduck/assets/power_support.stl",
+      "source_units": "metres",
+      "output_units": "millimetres",
+      "scale": 1000,
+      "approval": "unverified_physical_fit",
+      "mesh_dimensions_mm": [
+        54.5,
+        17.0,
+        83.4898
+      ]
+    },
+    {
+      "name": "right_shell",
+      "quantity": 1,
+      "category": "print_candidate",
+      "material_suggestion": "PETG_or_PLA_plus_trial",
+      "source_path": "src/mjlab_microduck/robot/microduck/assets/right_shell.stl",
+      "git_blob_sha": "4341ee67696762fefc62dd5612a5abd32aed6f40",
+      "size_bytes": 1048584,
+      "source_url": "https://raw.githubusercontent.com/pollen-robotics/microduck_rl/cb70b792312d559a4da09064d92009079671815f/src/mjlab_microduck/robot/microduck/assets/right_shell.stl",
+      "source_units": "metres",
+      "output_units": "millimetres",
+      "scale": 1000,
+      "approval": "unverified_physical_fit",
+      "mesh_dimensions_mm": [
+        31.7645,
+        80.8979,
+        41.6927
+      ]
+    },
+    {
+      "name": "seeed_bearing__configuration__22x16x4",
+      "quantity": 11,
+      "category": "purchase_reference",
+      "material_suggestion": "not_print",
+      "source_path": "src/mjlab_microduck/robot/microduck/assets/seeed_bearing__configuration__22x16x4.stl",
+      "git_blob_sha": "1cc2a3562e9cdec8667b849817569f7dc2c7f4fb",
+      "size_bytes": 1048584,
+      "source_url": "https://raw.githubusercontent.com/pollen-robotics/microduck_rl/cb70b792312d559a4da09064d92009079671815f/src/mjlab_microduck/robot/microduck/assets/seeed_bearing__configuration__22x16x4.stl",
+      "source_units": "metres",
+      "output_units": "millimetres",
+      "scale": 1000,
+      "approval": "unverified_physical_fit",
+      "mesh_dimensions_mm": [
+        22.0,
+        22.0,
+        4.0
+      ]
+    },
+    {
+      "name": "seeed_bearing__configuration_default",
+      "quantity": 3,
+      "category": "purchase_reference",
+      "material_suggestion": "not_print",
+      "source_path": "src/mjlab_microduck/robot/microduck/assets/seeed_bearing__configuration_default.stl",
+      "git_blob_sha": "71aa1ba5f5f4002dee6aa887b86ad4b64cd31356",
+      "size_bytes": 1048584,
+      "source_url": "https://raw.githubusercontent.com/pollen-robotics/microduck_rl/cb70b792312d559a4da09064d92009079671815f/src/mjlab_microduck/robot/microduck/assets/seeed_bearing__configuration_default.stl",
+      "source_units": "metres",
+      "output_units": "millimetres",
+      "scale": 1000,
+      "approval": "unverified_physical_fit",
+      "mesh_dimensions_mm": [
+        15.0,
+        15.0,
+        3.0
+      ]
+    },
+    {
+      "name": "soft_mouth_top",
+      "quantity": 1,
+      "category": "print_candidate",
+      "material_suggestion": "TPU_95A_trial",
+      "source_path": "src/mjlab_microduck/robot/microduck/assets/soft_mouth_top.stl",
+      "git_blob_sha": "e224e1e951ec24990884b033d5ac63a2073e5eea",
+      "size_bytes": 393584,
+      "source_url": "https://raw.githubusercontent.com/pollen-robotics/microduck_rl/cb70b792312d559a4da09064d92009079671815f/src/mjlab_microduck/robot/microduck/assets/soft_mouth_top.stl",
+      "source_units": "metres",
+      "output_units": "millimetres",
+      "scale": 1000,
+      "approval": "unverified_physical_fit",
+      "mesh_dimensions_mm": [
+        87.822,
+        32.5651,
+        3.2762
+      ]
+    },
+    {
+      "name": "sole_left",
+      "quantity": 1,
+      "category": "print_candidate",
+      "material_suggestion": "TPU_95A_trial",
+      "source_path": "src/mjlab_microduck/robot/microduck/assets/sole_left.stl",
+      "git_blob_sha": "c15fe2f38994cbd988ebcb7a76bc6a14c49f2564",
+      "size_bytes": 789484,
+      "source_url": "https://raw.githubusercontent.com/pollen-robotics/microduck_rl/cb70b792312d559a4da09064d92009079671815f/src/mjlab_microduck/robot/microduck/assets/sole_left.stl",
+      "source_units": "metres",
+      "output_units": "millimetres",
+      "scale": 1000,
+      "approval": "unverified_physical_fit",
+      "mesh_dimensions_mm": [
+        41.0985,
+        54.0,
+        12.9074
+      ]
+    },
+    {
+      "name": "sole_right",
+      "quantity": 1,
+      "category": "print_candidate",
+      "material_suggestion": "TPU_95A_trial",
+      "source_path": "src/mjlab_microduck/robot/microduck/assets/sole_right.stl",
+      "git_blob_sha": "6ecced133512bfc34fc02216b4902a536d53334e",
+      "size_bytes": 795184,
+      "source_url": "https://raw.githubusercontent.com/pollen-robotics/microduck_rl/cb70b792312d559a4da09064d92009079671815f/src/mjlab_microduck/robot/microduck/assets/sole_right.stl",
+      "source_units": "metres",
+      "output_units": "millimetres",
+      "scale": 1000,
+      "approval": "unverified_physical_fit",
+      "mesh_dimensions_mm": [
+        41.0987,
+        54.0,
+        12.9076
+      ]
+    },
+    {
+      "name": "speaker",
+      "quantity": 1,
+      "category": "purchase_reference",
+      "material_suggestion": "not_print",
+      "source_path": "src/mjlab_microduck/robot/microduck/assets/speaker.stl",
+      "git_blob_sha": "16de470fcc6b2977a2898ee2e60dc43d27b056d5",
+      "size_bytes": 684,
+      "source_url": "https://raw.githubusercontent.com/pollen-robotics/microduck_rl/cb70b792312d559a4da09064d92009079671815f/src/mjlab_microduck/robot/microduck/assets/speaker.stl",
+      "source_units": "metres",
+      "output_units": "millimetres",
+      "scale": 1000,
+      "approval": "unverified_physical_fit",
+      "mesh_dimensions_mm": [
+        35.0,
+        25.0,
+        7.0
+      ]
+    },
+    {
+      "name": "top_head_shell",
+      "quantity": 1,
+      "category": "print_candidate",
+      "material_suggestion": "PETG_or_PLA_plus_trial",
+      "source_path": "src/mjlab_microduck/robot/microduck/assets/top_head_shell.stl",
+      "git_blob_sha": "7c10d0cfe279e4df0f3c7debfe95e3bf4852203f",
+      "size_bytes": 806084,
+      "source_url": "https://raw.githubusercontent.com/pollen-robotics/microduck_rl/cb70b792312d559a4da09064d92009079671815f/src/mjlab_microduck/robot/microduck/assets/top_head_shell.stl",
+      "source_units": "metres",
+      "output_units": "millimetres",
+      "scale": 1000,
+      "approval": "unverified_physical_fit",
+      "mesh_dimensions_mm": [
+        91.7595,
+        122.69,
+        46.3361
+      ]
+    },
+    {
+      "name": "trunk_base",
+      "quantity": 1,
+      "category": "print_candidate",
+      "material_suggestion": "PETG_or_PLA_plus_trial",
+      "source_path": "src/mjlab_microduck/robot/microduck/assets/trunk_base.stl",
+      "git_blob_sha": "28a703ce76b817bdf73a4fb8f8089040c2ec4510",
+      "size_bytes": 184984,
+      "source_url": "https://raw.githubusercontent.com/pollen-robotics/microduck_rl/cb70b792312d559a4da09064d92009079671815f/src/mjlab_microduck/robot/microduck/assets/trunk_base.stl",
+      "source_units": "metres",
+      "output_units": "millimetres",
+      "scale": 1000,
+      "approval": "unverified_physical_fit",
+      "mesh_dimensions_mm": [
+        57.0,
+        36.0,
+        3.0
+      ]
+    },
+    {
+      "name": "upper_leg_left",
+      "quantity": 1,
+      "category": "print_candidate",
+      "material_suggestion": "PETG_or_PLA_plus_trial",
+      "source_path": "src/mjlab_microduck/robot/microduck/assets/upper_leg_left.stl",
+      "git_blob_sha": "5b3edce01372224337cde91435e0dae70ee306d5",
+      "size_bytes": 612584,
+      "source_url": "https://raw.githubusercontent.com/pollen-robotics/microduck_rl/cb70b792312d559a4da09064d92009079671815f/src/mjlab_microduck/robot/microduck/assets/upper_leg_left.stl",
+      "source_units": "metres",
+      "output_units": "millimetres",
+      "scale": 1000,
+      "approval": "unverified_physical_fit",
+      "mesh_dimensions_mm": [
+        28.0,
+        47.6594,
+        60.9966
+      ]
+    },
+    {
+      "name": "upper_leg_right",
+      "quantity": 1,
+      "category": "print_candidate",
+      "material_suggestion": "PETG_or_PLA_plus_trial",
+      "source_path": "src/mjlab_microduck/robot/microduck/assets/upper_leg_right.stl",
+      "git_blob_sha": "f1443617b1aa5ebe201cded5bf9aecab041d56bc",
+      "size_bytes": 612584,
+      "source_url": "https://raw.githubusercontent.com/pollen-robotics/microduck_rl/cb70b792312d559a4da09064d92009079671815f/src/mjlab_microduck/robot/microduck/assets/upper_leg_right.stl",
+      "source_units": "metres",
+      "output_units": "millimetres",
+      "scale": 1000,
+      "approval": "unverified_physical_fit",
+      "mesh_dimensions_mm": [
+        28.0,
+        47.6594,
+        60.9966
+      ]
+    },
+    {
+      "name": "upper_leg_rigidity_plate",
+      "quantity": 2,
+      "category": "print_candidate",
+      "material_suggestion": "PETG_or_PLA_plus_trial",
+      "source_path": "src/mjlab_microduck/robot/microduck/assets/upper_leg_rigidity_plate.stl",
+      "git_blob_sha": "01f9fdef32d84b2f63820bb718ab07087c21d71a",
+      "size_bytes": 180084,
+      "source_url": "https://raw.githubusercontent.com/pollen-robotics/microduck_rl/cb70b792312d559a4da09064d92009079671815f/src/mjlab_microduck/robot/microduck/assets/upper_leg_rigidity_plate.stl",
+      "source_units": "metres",
+      "output_units": "millimetres",
+      "scale": 1000,
+      "approval": "unverified_physical_fit",
+      "mesh_dimensions_mm": [
+        1.0,
+        44.9965,
+        58.0577
+      ]
+    },
+    {
+      "name": "xl330",
+      "quantity": 15,
+      "category": "purchase_reference",
+      "material_suggestion": "not_print",
+      "source_path": "src/mjlab_microduck/robot/microduck/assets/xl330.stl",
+      "git_blob_sha": "036fba0df9acdd1568d5fcb13fe68673b1abde83",
+      "size_bytes": 206384,
+      "source_url": "https://raw.githubusercontent.com/pollen-robotics/microduck_rl/cb70b792312d559a4da09064d92009079671815f/src/mjlab_microduck/robot/microduck/assets/xl330.stl",
+      "source_units": "metres",
+      "output_units": "millimetres",
+      "scale": 1000,
+      "approval": "unverified_physical_fit",
+      "mesh_dimensions_mm": [
+        29.0,
+        20.0,
+        34.0
+      ]
+    },
+    {
+      "name": "yaw2roll",
+      "quantity": 2,
+      "category": "print_candidate",
+      "material_suggestion": "PETG_or_PLA_plus_trial",
+      "source_path": "src/mjlab_microduck/robot/microduck/assets/yaw2roll.stl",
+      "git_blob_sha": "50e107311bb7af52c0452e3414d03d9b34857ee8",
+      "size_bytes": 620284,
+      "source_url": "https://raw.githubusercontent.com/pollen-robotics/microduck_rl/cb70b792312d559a4da09064d92009079671815f/src/mjlab_microduck/robot/microduck/assets/yaw2roll.stl",
+      "source_units": "metres",
+      "output_units": "millimetres",
+      "scale": 1000,
+      "approval": "unverified_physical_fit",
+      "mesh_dimensions_mm": [
+        23.0,
+        25.8,
+        20.5
+      ]
+    },
+    {
+      "name": "yaw_roll_motion",
+      "quantity": 1,
+      "category": "print_candidate",
+      "material_suggestion": "PETG_or_PLA_plus_trial",
+      "source_path": "src/mjlab_microduck/robot/microduck/assets/yaw_roll_motion.stl",
+      "git_blob_sha": "20dd91011e74f3002fc376e248b4c5e827909a87",
+      "size_bytes": 290784,
+      "source_url": "https://raw.githubusercontent.com/pollen-robotics/microduck_rl/cb70b792312d559a4da09064d92009079671815f/src/mjlab_microduck/robot/microduck/assets/yaw_roll_motion.stl",
+      "source_units": "metres",
+      "output_units": "millimetres",
+      "scale": 1000,
+      "approval": "unverified_physical_fit",
+      "mesh_dimensions_mm": [
+        34.0,
+        35.9,
+        22.5
+      ]
+    }
+  ]
+}
