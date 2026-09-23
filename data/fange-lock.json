@@ -1,0 +1,14 @@
+{
+  "checked_on": "2026-09-23",
+  "repository": "AI-FanGe/Microduck-build-tutorial",
+  "commit": "49678215d0b40529522772a40c06c216390449dd",
+  "route": "B: Raspberry Pi Zero 2 W / OpenRB-150 / BNO08x / 14 XL330",
+  "files": {
+    "microduck3D打印.3mf": "e78a329d264bc5050c00b8ff6a37d6b1195b6ea128bd9760492f31b4a91cc71e",
+    "microduck/src/agents/walk.onnx": "5707c06da8346ecd4c2ff15dcd74ffabc575e0f14bcbb18076501324f9bbe279"
+  },
+  "image_url": "https://github.com/AI-FanGe/Microduck-build-tutorial/releases/download/image.v1/microduck.img.xz",
+  "image_sha256_published": "096885dc32fb5b1db2ad69ba6bea868d8ab988f2b47c0d884eb63ba0dfdcb5c4",
+  "image_download_verified": false,
+  "image_source_commit_match_verified": false
+}

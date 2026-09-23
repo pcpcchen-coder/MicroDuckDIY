@@ -1,14 +1,22 @@
 # MicroDuckDIY｜MicroDuck 自製規劃與操作手冊
 
-版本：v0.1 · 查核日期：2026-09-23 · 對象：George 的第一台 DIY MicroDuck。
+版本：v0.2 · 查核日期：2026-09-23 · 對象：George 的第一台 DIY MicroDuck。
 
-**目標：自行採購、列印、組裝，完成可安全站立及遙控行走的雙足機器鴨。** 本 repo 提供繁體中文工程規劃、零件採購表、逐件列印表、軟體安裝及驗收教學。以官方 alpha／Radxa 路線為基線，先完成步行，再加影像、音訊與輪滑。
+**目標：自行採購、列印、組裝，完成可安全站立及遙控行走的雙足機器鴨。** 本 repo 提供繁體中文工程規劃、零件採購表、逐件列印表、軟體安裝及驗收教學。首次實作優先採用帆哥社群路線 B；官方 alpha／Radxa 路線 A 保留為研究基線。先完成步行，再考慮影像、音訊與輪滑。
 
-## 先看這三件事
+## George：第一次照做，從路線 B 開始
 
-1. **這不是原廠完整組裝套件。** 官方 runtime 開源；HAT 有公開製造檔；機構可由 RL 模型取得 STL。但本次查核未取得完整整機製造 BOM、螺絲表與 `imu_to_dxl` v2 板製造／韌體資料。因此文件完成不代表整台硬體已驗證可複製。
-2. **不要一次買 15 顆馬達。** runtime 使用 XL330 控制介面，且記載 2S 電池直供；零售 XL330-M288-T 額定上限是 6 V。先以 5 V、單顆馬達與限流電源驗證，供電設計與策略相容性確認後再購齊。
-3. **STL 不是直接丟進切片軟體就好。** 本次鎖定模型使用公尺座標，要轉成毫米；步行模型核算為 **30 種、36 件列印候選**，另有軸承、馬達、電池與板卡的參考模型不能拿來列印替代。
+**[11 帆哥方案總覽與實作順序](docs/11-fange-start.md)** → **[12 採購與5盤列印表](docs/12-fange-parts-printing.md)** → **[13 接線、刷機、校正與操作](docs/13-fange-build-run.md)** → **[14 驗收與施工紀錄](docs/14-fange-acceptance.md)**。
+
+- 配置：Pi Zero 2 W＋OpenRB-150＋BNO08x＋14顆XL330；嘴部第15顆暫不裝。
+- 有作者實機展示及映像，但本repo尚未實體重現。先買1顆測試，再增至5顆單腿，通過後補至14顆。
+- 帆哥3MF已是毫米；5盤65個已分盤實例，另2個未分盤物件。不得套用官方STL放大1000倍或30種36件清單。
+- 本次實際檢查附帶ONNX為51輸入／14輸出，不能混用官方61維模型；膝偏移、IMU方向及電源仍須按實物驗證。
+- 「6V電池」未指定完整SKU，不能保證滿電不超XL330額定；先用5V限流台架，最終電源按12章選型。
+
+## 路線 A：官方版本研究參考
+
+下方00–10章與 `prepare_prints.py` 都屬於路線 A。官方runtime、RL機構與HAT來源已固定，但完整製造BOM與IMU橋接資料仍有缺口；2S供電假設也不可直接用於零售XL330。A與B的採購、ID、列印單位、IMU及操作命令不可混用。
 
 ## 從這裡開始
 
@@ -26,12 +34,12 @@
 | 查證依據、版本及待確認問題 | [09 來源與缺口](docs/09-sources.md) |
 | 看本次實際驗證範圍 | [10 驗證紀錄](docs/10-validation-report.md) |
 
-## 第一個週末
+## 第一個週末（路線 B）
 
-- 電腦：按 06 章先啟動模擬，不必等硬體到貨。
-- 詢價：Radxa Zero 3W、1 顆 XL330-M288-T、USB–Dynamixel TTL 工具、HAT PCBA。
-- 列印：先印 `bearing_roll` 與 `motor_support`，別一次印完整頭殼。
-- 確認：IMU v2 取得方式、馬達實際型號及容許電壓。這兩項是進入整機動態測試的必要條件。
+1. 依11章下載帆哥固定版本，觀看作者組裝影片，開3MF確認自己的機型與尺寸。
+2. 詢價Pi Zero 2 W、OpenRB-150、BNO08x、1顆XL330與配套線材，不必先買GPU。
+3. 按12章試印舵機配合件，13章先做單顆通訊與IMU測試。
+4. 用14章記錄結果；還沒完成單腿前，不先買齊14顆及整套電池。
 
 ## 檔案與工具
 
@@ -40,9 +48,13 @@ README.md
 docs/                   繁體中文手冊
 data/print-manifest.json 38 種模型、數量、分類、下載網址及 Git blob SHA
 data/upstream-lock.json  官方來源固定 commit
+data/fange-lock.json     帆哥來源、3MF／ONNX雜湊及映像校驗資訊
+data/fange-print-inventory.json  帆哥3MF盤點（非製造BOM）
 scripts/prepare_prints.py STL 下載、來源雜湊校驗、公尺轉毫米、尺寸報告
 scripts/check_docs.py     內部文件連結及清單一致性檢查
 ```
+
+以下列印工具僅適用路線 A；路線 B直接使用作者3MF。
 
 ```bash
 python3 scripts/prepare_prints.py --list
@@ -55,3 +67,5 @@ python3 scripts/check_docs.py
 ## 授權界線
 
 本 repo 為獨立規劃，非 Pollen Robotics 官方產品支援。上游軟體與 HAT 為 Apache-2.0；RL README 對 3D 模型另標示 Creative Commons BY-SA-NC，不能因根目錄軟體授權而視為模型可任意商用。保留原作者、來源及授權；本 repo 不重新散布 STL、PCB 或上游韌體。[來源及授權說明](docs/09-sources.md)。
+
+帆哥路線另有MIT根授權、GPL標示子目錄與模型上游權利，詳見[11章](docs/11-fange-start.md)。

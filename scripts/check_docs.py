@@ -25,3 +25,13 @@ for x in m['assets']:
 if errors:
     raise SystemExit('\n'.join(errors))
 print('PASS: local Markdown links; 38 types/70 visual instances; 30 print types/36 pieces; pinned asset hashes.')
+f=json.loads((ROOT/'data/fange-print-inventory.json').read_text())
+lock=json.loads((ROOT/'data/fange-lock.json').read_text())
+assert f['commit']==lock['commit']
+assert f['unit']=='millimeter' and f['build_items']==67
+assert [len(p['instances']) for p in f['plates']]==[4,5,19,34,3]
+assert len(f['unassigned_objects'])==2
+assert f['sha256']==lock['files'][f['path']]
+assert all(re.fullmatch('[0-9a-f]{64}',v) for v in lock['files'].values())
+assert re.fullmatch('[0-9a-f]{64}',lock['image_sha256_published'])
+print('PASS: FanGe pinned source, 5 plates/65 assigned + 2 unassigned objects, file hashes.')

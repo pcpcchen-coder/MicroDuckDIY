@@ -1,5 +1,7 @@
 # 05｜機構組裝、馬達編號與校正
 
+> 路線 A：官方 alpha / Radxa 參考。本次要跟帆哥製作，請改讀 [路線 B（11–14章）](11-fange-start.md)，勿混用ID、列印比例與操作命令。
+
 本章是按官方模型整理的施工順序，不是原廠逐螺絲安裝手冊。螺絲孔深、扭力、惰輪及部分軸承規格沒有完整製造資料；先試裝再補施工紀錄。來源：[官方robot_walk.xml](https://github.com/pollen-robotics/microduck_rl/blob/cb70b792312d559a4da09064d92009079671815f/src/mjlab_microduck/robot/microduck/robot_walk.xml)、[模型原始Onshape入口](https://cad.onshape.com/documents/804927696f06d877f3f1803e/w/5b75db19292e71970de02dee/e/ef6e972847fec8d82570b35e)。Onshape是來源連結，本次未驗證能否匿名編輯／匯出；無法開啟時仍可看MJCF定位資料。
 
 ## 1. 裝配前台架

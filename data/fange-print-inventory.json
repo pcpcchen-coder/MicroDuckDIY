@@ -1,0 +1,378 @@
+{
+  "checked_on": "2026-09-23",
+  "repository": "AI-FanGe/Microduck-build-tutorial",
+  "commit": "49678215d0b40529522772a40c06c216390449dd",
+  "path": "microduck3D打印.3mf",
+  "sha256": "e78a329d264bc5050c00b8ff6a37d6b1195b6ea128bd9760492f31b4a91cc71e",
+  "unit": "millimeter",
+  "build_items": 67,
+  "plates": [
+    {
+      "plate_id": "1",
+      "name": "黄色的鸭嘴和脚部分",
+      "instances": [
+        {
+          "object_id": "2",
+          "name": "3.obj",
+          "instance_id": "0"
+        },
+        {
+          "object_id": "4",
+          "name": "4.obj",
+          "instance_id": "0"
+        },
+        {
+          "object_id": "64",
+          "name": "grbrgn.obj",
+          "instance_id": "0"
+        },
+        {
+          "object_id": "66",
+          "name": "thngthm.obj",
+          "instance_id": "0"
+        }
+      ]
+    },
+    {
+      "plate_id": "2",
+      "name": "白色的外壳",
+      "instances": [
+        {
+          "object_id": "6",
+          "name": "5.obj",
+          "instance_id": "0"
+        },
+        {
+          "object_id": "8",
+          "name": "7.obj",
+          "instance_id": "0"
+        },
+        {
+          "object_id": "10",
+          "name": "8.obj",
+          "instance_id": "0"
+        },
+        {
+          "object_id": "72",
+          "name": "fgb.obj",
+          "instance_id": "0"
+        },
+        {
+          "object_id": "74",
+          "name": "gbgb.obj",
+          "instance_id": "0"
+        }
+      ]
+    },
+    {
+      "plate_id": "3",
+      "name": "灰色的结构件",
+      "instances": [
+        {
+          "object_id": "12",
+          "name": "a.obj",
+          "instance_id": "0"
+        },
+        {
+          "object_id": "14",
+          "name": "b.obj",
+          "instance_id": "0"
+        },
+        {
+          "object_id": "16",
+          "name": "d.obj",
+          "instance_id": "0"
+        },
+        {
+          "object_id": "18",
+          "name": "e.obj",
+          "instance_id": "0"
+        },
+        {
+          "object_id": "20",
+          "name": "f.obj",
+          "instance_id": "0"
+        },
+        {
+          "object_id": "22",
+          "name": "g.obj",
+          "instance_id": "0"
+        },
+        {
+          "object_id": "24",
+          "name": "h.obj",
+          "instance_id": "0"
+        },
+        {
+          "object_id": "26",
+          "name": "i.obj",
+          "instance_id": "0"
+        },
+        {
+          "object_id": "28",
+          "name": "j.obj",
+          "instance_id": "0"
+        },
+        {
+          "object_id": "30",
+          "name": "k.obj",
+          "instance_id": "0"
+        },
+        {
+          "object_id": "32",
+          "name": "l.obj",
+          "instance_id": "0"
+        },
+        {
+          "object_id": "34",
+          "name": "m.obj",
+          "instance_id": "0"
+        },
+        {
+          "object_id": "36",
+          "name": "n.obj",
+          "instance_id": "0"
+        },
+        {
+          "object_id": "38",
+          "name": "o.obj",
+          "instance_id": "0"
+        },
+        {
+          "object_id": "40",
+          "name": "p.obj",
+          "instance_id": "0"
+        },
+        {
+          "object_id": "42",
+          "name": "q.obj",
+          "instance_id": "0"
+        },
+        {
+          "object_id": "60",
+          "name": "b.obj",
+          "instance_id": "0"
+        },
+        {
+          "object_id": "70",
+          "name": "dfbdfbbbbb1.obj",
+          "instance_id": "0"
+        },
+        {
+          "object_id": "76",
+          "name": "ghmghmghmghm.obj",
+          "instance_id": "0"
+        }
+      ]
+    },
+    {
+      "plate_id": "4",
+      "name": "结构件 舵机转盘 轴承",
+      "instances": [
+        {
+          "object_id": "50",
+          "name": "dfvdfb.obj",
+          "instance_id": "0"
+        },
+        {
+          "object_id": "51",
+          "name": "dfvdfb.obj",
+          "instance_id": "0"
+        },
+        {
+          "object_id": "53",
+          "name": "ersgtbgertgestrg.obj",
+          "instance_id": "0"
+        },
+        {
+          "object_id": "57",
+          "name": "idle_horn.stl",
+          "instance_id": "0"
+        },
+        {
+          "object_id": "59",
+          "name": "idle_cap.stl",
+          "instance_id": "0"
+        },
+        {
+          "object_id": "62",
+          "name": "rgbn.obj",
+          "instance_id": "0"
+        },
+        {
+          "object_id": "68",
+          "name": "rgbn.obj",
+          "instance_id": "0"
+        },
+        {
+          "object_id": "77",
+          "name": "idle_horn.stl",
+          "instance_id": "0"
+        },
+        {
+          "object_id": "78",
+          "name": "idle_cap.stl",
+          "instance_id": "0"
+        },
+        {
+          "object_id": "79",
+          "name": "idle_horn.stl",
+          "instance_id": "0"
+        },
+        {
+          "object_id": "80",
+          "name": "idle_cap.stl",
+          "instance_id": "0"
+        },
+        {
+          "object_id": "81",
+          "name": "idle_horn.stl",
+          "instance_id": "0"
+        },
+        {
+          "object_id": "82",
+          "name": "idle_cap.stl",
+          "instance_id": "0"
+        },
+        {
+          "object_id": "83",
+          "name": "idle_horn.stl",
+          "instance_id": "0"
+        },
+        {
+          "object_id": "84",
+          "name": "idle_cap.stl",
+          "instance_id": "0"
+        },
+        {
+          "object_id": "85",
+          "name": "idle_horn.stl",
+          "instance_id": "0"
+        },
+        {
+          "object_id": "86",
+          "name": "idle_cap.stl",
+          "instance_id": "0"
+        },
+        {
+          "object_id": "87",
+          "name": "ersgtbgertgestrg.obj",
+          "instance_id": "0"
+        },
+        {
+          "object_id": "88",
+          "name": "ersgtbgertgestrg.obj",
+          "instance_id": "0"
+        },
+        {
+          "object_id": "89",
+          "name": "ersgtbgertgestrg.obj",
+          "instance_id": "0"
+        },
+        {
+          "object_id": "90",
+          "name": "ersgtbgertgestrg.obj",
+          "instance_id": "0"
+        },
+        {
+          "object_id": "91",
+          "name": "ersgtbgertgestrg.obj",
+          "instance_id": "0"
+        },
+        {
+          "object_id": "92",
+          "name": "ersgtbgertgestrg.obj",
+          "instance_id": "0"
+        },
+        {
+          "object_id": "93",
+          "name": "ersgtbgertgestrg.obj",
+          "instance_id": "0"
+        },
+        {
+          "object_id": "94",
+          "name": "ersgtbgertgestrg.obj",
+          "instance_id": "0"
+        },
+        {
+          "object_id": "95",
+          "name": "ersgtbgertgestrg.obj",
+          "instance_id": "0"
+        },
+        {
+          "object_id": "96",
+          "name": "ersgtbgertgestrg.obj",
+          "instance_id": "0"
+        },
+        {
+          "object_id": "97",
+          "name": "ersgtbgertgestrg.obj",
+          "instance_id": "0"
+        },
+        {
+          "object_id": "98",
+          "name": "ersgtbgertgestrg.obj",
+          "instance_id": "0"
+        },
+        {
+          "object_id": "99",
+          "name": "ersgtbgertgestrg.obj",
+          "instance_id": "0"
+        },
+        {
+          "object_id": "100",
+          "name": "ersgtbgertgestrg.obj",
+          "instance_id": "0"
+        },
+        {
+          "object_id": "101",
+          "name": "ersgtbgertgestrg.obj",
+          "instance_id": "0"
+        },
+        {
+          "object_id": "102",
+          "name": "ersgtbgertgestrg.obj",
+          "instance_id": "0"
+        },
+        {
+          "object_id": "103",
+          "name": "ersgtbgertgestrg.obj",
+          "instance_id": "0"
+        }
+      ]
+    },
+    {
+      "plate_id": "5",
+      "name": "浅黄色的眼镜和脚掌",
+      "instances": [
+        {
+          "object_id": "44",
+          "name": "111.obj",
+          "instance_id": "0"
+        },
+        {
+          "object_id": "46",
+          "name": "222.obj",
+          "instance_id": "0"
+        },
+        {
+          "object_id": "48",
+          "name": "333.obj",
+          "instance_id": "0"
+        }
+      ]
+    }
+  ],
+  "unassigned_objects": [
+    {
+      "object_id": "56",
+      "name": "idle_horn.stl"
+    },
+    {
+      "object_id": "55",
+      "name": "idle_horn.stl"
+    }
+  ],
+  "physical_fit_verified": false,
+  "note": "Slicer project inventory, NOT a verified assembly BOM. Preserve instance placements and inspect unassigned objects."
+}
