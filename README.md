@@ -1,10 +1,18 @@
 # MicroDuckDIY｜MicroDuck 自製規劃與操作手冊
 
-版本：v0.2 · 查核日期：2026-09-23 · 對象：George 的第一台 DIY MicroDuck。
+版本：v0.3 · 查核日期：2026-11-09 · 對象：George 的第一台 DIY MicroDuck。
 
-**目標：自行採購、列印、組裝，完成可安全站立及遙控行走的雙足機器鴨。** 本 repo 提供繁體中文工程規劃、零件採購表、逐件列印表、軟體安裝及驗收教學。首次實作優先採用帆哥社群路線 B；官方 alpha／Radxa 路線 A 保留為研究基線。先完成步行，再考慮影像、音訊與輪滑。
+**目標：自行採購、列印、組裝，完成可安全站立及遙控行走的雙足機器鴨。** 本 repo 提供繁體中文工程規劃、零件採購表、逐件列印表、軟體安裝及驗收教學。2026-11 新增 Route C（HD-1910 + Radxa Zero 3W）與 Route D（Open Duck Mini v2）。Route C 目前列為優先採購候選；在真機完成驗證前，原 Route B 仍是本 repo 已整理最完整的固定基線。
 
-## George：第一次照做，從路線 B 開始
+## 2026-11 新路線：先看 Route C，再決定是否下單
+
+**[15 HD-1910 MicroDuck Replica、Open Duck Mini v2 與市場採購](docs/15-hd1910-open-duck-v2-market.md)**
+
+目前優先調查 **HD-1910 ×15 + Radxa Zero 3W / RK3566** 的 Route C。中國市場已出現整機與 DIY 套件，但低價 SKU 必須先通過文件中的「10 問 + 下單 Gate」。如果賣家內容物不清楚，就不要因 ¥1,280 / ¥1,899 的表面價格直接付款。
+
+Route C 真機驗證完成前，第一次實作仍可沿用下方 Route B 文件。
+
+## George：已整理基線 Route B
 
 **[11 帆哥方案總覽與實作順序](docs/11-fange-start.md)** → **[12 採購與5盤列印表](docs/12-fange-parts-printing.md)** → **[13 接線、刷機、校正與操作](docs/13-fange-build-run.md)** → **[14 驗收與施工紀錄](docs/14-fange-acceptance.md)**。
 
@@ -33,6 +41,7 @@
 | 照表驗收、記錄數據 | [08 驗收與施工紀錄](docs/08-acceptance.md) |
 | 查證依據、版本及待確認問題 | [09 來源與缺口](docs/09-sources.md) |
 | 看本次實際驗證範圍 | [10 驗證紀錄](docs/10-validation-report.md) |
+| 比較 HD-1910 Replica、Open Duck Mini v2、官方版與最新賣場 | [15 2026-11 路線與市場更新](docs/15-hd1910-open-duck-v2-market.md) |
 
 ## 第一個週末（路線 B）
 
